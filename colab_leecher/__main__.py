@@ -19,15 +19,15 @@ src_request_msg = None
 @colab_bot.on_message(filters.command("start") & filters.private)
 async def start(client, message):
     await message.delete()
-    text = "**Hey There, 👋🏼 It's Colab Leecher**\n\n◲ I am a Powerful File Transloading Bot 🚀\n◲ I can Transfer Files To Telegram or Your Google Drive From Various Sources 🦐"
+    text = "**Hey There, 👋🏼 It's Cool Dude Bot**\n\n◲ I am a Powerful File Transloading Bot 🚀\n◲ I can Transfer Files To Telegram or Your Google Drive From Various Sources And I only send leeched files to my master"
     keyboard = InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                    "Repository 🦄",
-                    url="https://github.com/XronTrix10/Telegram-Leecher",
+                    "Join Shinchan channel",
+                    url="https://t.me/shinchan_movies_hindi",
                 ),
-                InlineKeyboardButton("Support 💝", url="https://t.me/Colab_Leecher"),
+                InlineKeyboardButton("Chat Here✨", url="https://t.me/Chat_with_unknown_new"),
             ],
         ]
     )
